@@ -1,0 +1,3 @@
+VAR_GLOBAL
+ G_RuntimeDB : ST_RuntimeDB;
+END_VAR

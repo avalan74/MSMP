@@ -1,0 +1,5 @@
+TYPE ST_RuntimeDB :
+STRUCT
+ // TODO next commit
+END_STRUCT
+END_TYPE

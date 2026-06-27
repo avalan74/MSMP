@@ -1,0 +1,3 @@
+VAR_GLOBAL
+gStation:ST_Station;
+END_VAR

@@ -1,0 +1,21 @@
+TYPE ST_Station :
+STRUCT
+StationID:BYTE;
+Name:STRING[20];
+Online:BOOL;
+CANopenOK:BOOL;
+ModbusOK:BOOL;
+LastUpdate_ms:DWORD;
+NorthLinear:ST_Encoder;
+NorthAngle1:ST_Encoder;
+NorthAngle2:ST_Encoder;
+SouthLinear:ST_Encoder;
+SouthAngle1:ST_Encoder;
+SouthAngle2:ST_Encoder;
+AlarmActive:BOOL;
+WarningActive:BOOL;
+CommunicationErrors:DWORD;
+WatchdogCounter:DWORD;
+FirmwareVersion:STRING[20];
+END_STRUCT
+END_TYPE

@@ -1,2 +1,3 @@
-# ST-005 Diagnostics
-Basic diagnostics module.
+# ST-006
+
+Station runtime manager module.

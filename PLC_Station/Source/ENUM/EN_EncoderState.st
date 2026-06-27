@@ -1,0 +1,8 @@
+TYPE EN_EncoderState :
+(
+ ENC_OFFLINE:=0,
+ ENC_ONLINE:=1,
+ ENC_WARNING:=2,
+ ENC_ERROR:=3
+);
+END_TYPE

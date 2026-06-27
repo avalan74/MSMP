@@ -1,0 +1,9 @@
+TYPE EN_SystemState :
+(
+ SYS_INIT:=0,
+ SYS_READY:=10,
+ SYS_RUN:=20,
+ SYS_WARNING:=30,
+ SYS_ERROR:=40
+);
+END_TYPE

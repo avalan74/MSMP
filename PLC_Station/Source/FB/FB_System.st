@@ -1,0 +1,16 @@
+FUNCTION_BLOCK FB_System
+VAR_INPUT
+    Enable : BOOL;
+END_VAR
+VAR_OUTPUT
+    Ready : BOOL;
+    Run : BOOL;
+END_VAR
+IF Enable THEN
+    Ready:=TRUE;
+    Run:=TRUE;
+ELSE
+    Ready:=FALSE;
+    Run:=FALSE;
+END_IF;
+END_FUNCTION_BLOCK

@@ -1,2 +1,2 @@
-# ST-003
-CANopen base module.
+# ST-005 Diagnostics
+Basic diagnostics module.

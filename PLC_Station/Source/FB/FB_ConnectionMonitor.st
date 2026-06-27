@@ -1,0 +1,5 @@
+FUNCTION_BLOCK FB_ConnectionMonitor
+VAR_INPUT Connected:BOOL; END_VAR
+VAR_OUTPUT Alarm:BOOL; END_VAR
+Alarm:=NOT Connected;
+END_FUNCTION_BLOCK

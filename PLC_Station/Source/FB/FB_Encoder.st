@@ -1,0 +1,9 @@
+FUNCTION_BLOCK FB_Encoder
+VAR_INPUT
+ PositionRaw:LREAL;
+END_VAR
+VAR_OUTPUT
+ Position:LREAL;
+END_VAR
+Position:=PositionRaw;
+END_FUNCTION_BLOCK

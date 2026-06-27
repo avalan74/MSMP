@@ -1,2 +1,2 @@
-# ST-002
-Core PLC Station module.
+# ST-003
+CANopen base module.

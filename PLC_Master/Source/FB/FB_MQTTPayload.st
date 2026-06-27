@@ -1,0 +1,10 @@
+FUNCTION_BLOCK FB_MQTTPayload
+VAR_INPUT
+ Enable:BOOL;
+END_VAR
+VAR_OUTPUT
+ Ready:BOOL;
+END_VAR
+Ready:=Enable;
+// TODO: Build payload from gRuntimeDB
+END_FUNCTION_BLOCK

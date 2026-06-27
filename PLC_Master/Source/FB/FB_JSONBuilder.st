@@ -1,0 +1,10 @@
+FUNCTION_BLOCK FB_JSONBuilder
+VAR_INPUT
+ Enable:BOOL;
+END_VAR
+VAR_OUTPUT
+ Done:BOOL;
+END_VAR
+Done:=Enable;
+// TODO: Serialize RuntimeDB to JSON
+END_FUNCTION_BLOCK

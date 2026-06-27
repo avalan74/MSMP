@@ -1,2 +1,2 @@
-# ST-011
-Payload, HMI update and system status skeleton.
+# ST-012
+Modbus scheduler framework.

@@ -1,0 +1,9 @@
+FUNCTION_BLOCK FB_StationTimeout
+VAR_INPUT
+ CommunicationOK:BOOL;
+END_VAR
+VAR_OUTPUT
+ Timeout:BOOL;
+END_VAR
+Timeout:=NOT CommunicationOK;
+END_FUNCTION_BLOCK

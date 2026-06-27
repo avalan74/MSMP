@@ -1,2 +1,2 @@
-# ST-008
-Polling framework for 11 Modbus stations.
+# ST-009
+Runtime database and station management.

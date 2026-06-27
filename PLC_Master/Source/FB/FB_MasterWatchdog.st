@@ -1,0 +1,5 @@
+FUNCTION_BLOCK FB_MasterWatchdog
+VAR_IN_OUT Counter:DWORD;
+END_VAR
+Counter:=Counter+1;
+END_FUNCTION_BLOCK

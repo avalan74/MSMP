@@ -1,7 +1,2 @@
-# ST-007
-
-PLC Master base.
-
-- Polling Modbus RTU
-- Runtime update
-- Stations array
+# ST-008
+Polling framework for 11 Modbus stations.

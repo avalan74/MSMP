@@ -1,2 +1,2 @@
-# ST-010
-MQTT payload generation framework.
+# ST-011
+Payload, HMI update and system status skeleton.
